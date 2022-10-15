@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * The main func will print a statement by using puts
+ * Description: main will print out a statement by using puts.
  *
- * The return vaule is 0
+ * Return: 0 when done.
 */
 int main(void)
 {
