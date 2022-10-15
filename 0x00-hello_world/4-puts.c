@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Description: main will print out a statement by using puts.
+ * main - will print out a statement by using puts.
  *
  * Return: 0 when done.
 */
