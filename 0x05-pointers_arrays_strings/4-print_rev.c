@@ -2,6 +2,7 @@
 
 /**
  * rev_string - reverses a string
+ * _putchar - print char
  * @s: char to be checked
  * Return: nothing
  */
