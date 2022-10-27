@@ -6,21 +6,19 @@
  * @src:char
  * Return:char
  */
+
 char *_strcat(char *dest, char *src)
 {
-	char *s = dest;
+	unsigned int i = 0;
+	unsigned int j = 0;
 
-	while (*dest != '\0')
+	while (*(dest + i) != '\0')
+		i++;
+	while (*(src + j) != '\0')
 	{
-		dest++;
+		*(dest + i) = *(src + j);
+		i++;
+		j++;
 	}
-
-	while (*src != '\0')
-	{
-		*dest = *src;
-		dest++;
-		src++;
-	}
-	*dest = '\0';
-	return (s);
+	return (dest);
 }
